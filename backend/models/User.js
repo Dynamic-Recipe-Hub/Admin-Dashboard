@@ -85,6 +85,8 @@ const userSchema = new mongoose.Schema({
   isActive: { type: Boolean, default: true },
   location: { type: String, default: null },
   image: { type: String, default: null },
+  response: { type: String },
+
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
   dishes: [
